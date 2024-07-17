@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+::selection{
+    background-color: #d2d2d2c4;
+    color: #250d1d;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #250d1d;
+    padding: 3px 4px;
+    overflow: hidden;
+}
+
+.banner .copyright-info{
+    font-size: 23px;
+    color: #ffffffad;
+    margin: 8px 0 27px 0;
+}
+
+.banner pre{
+    margin-left: -125px;
+    color: #ffffffad;
+    user-select: none;
+}
+
+.greet{
+    font-size: 23px;
+    color: #cdb204bd;
+    margin: 31px 0 27px 0;
+}
+
+.input-container{
+    display: flex;
+}
+
+.user{
+    color: #007300;
+    font-size: 19px;
+    min-width: 173px;
+}
+
+#input{
+    outline: none;
+    padding-left: 5px;
+    resize: none;
+    background-color: #250d1d;
+    border: none;
+    caret-color: green;
+    font-size: 19px;
+    color: #d2d2d2c4;
+    height: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    width: -webkit-fill-available;
+    height: auto;
+    overflow: hidden;
+}
+
+
+.highlight{
+    color: #ce4c23b3;
+}
+
+.output{
+    margin-bottom: 10px;
+    font-size: 19px;
+    color: #d2d2d2c4;
+}
+
+li{
+    margin-left: 17px;
+    list-style: none;
+}
+
+a{
+    color: #d2d2d2c4;
+    text-decoration: none;
+}
+
+.project{
+    display: flex;
+    margin: 15px 0;
+}
+
+.project li{
+    list-style: disc;
+}
+
+.project li a{
+    color: #5b5bff;
+}
+
+.project li a:hover{
+    text-decoration: underline;
+}
+
+.project .project-name{
+    min-width: 170px;
+}
+
+.education li{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4px;
+}
