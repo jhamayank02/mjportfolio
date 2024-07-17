@@ -19,7 +19,7 @@ input.addEventListener('keyup', (e)=>{
                 input.value = "";
                 
                 outputContainer.innerHTML += '<div class="output">' +
-                                            '<span class="user">visitor@mjcodes:~$</span> <span class="prev-cmd">help</span>' + 
+                                            '<span class="user">visitor@mjportfolio:~$</span> <span class="prev-cmd">help</span>' + 
                                             '<ul>' + commands.map((item)=> {
                                                     return '<li><pre>' + item + '</pre></li>'
                                                 }).join("") + 
@@ -31,7 +31,7 @@ input.addEventListener('keyup', (e)=>{
                 input.value = "";
                 
                 outputContainer.innerHTML += '<div class="output">' +
-                                            '<span class="user">visitor@mjcodes:~$</span> <span class="prev-cmd">who</span>' + 
+                                            '<span class="user">visitor@mjportfolio:~$</span> <span class="prev-cmd">who</span>' + 
                                             `<div>
                                             <p>Hello there! I'm Mayank Jha, a passionate and seasoned full-stack web developer with a knack for turning innovative ideas into robust, user-friendly applications. My journey in the world of coding began 4 years ago, and since then, I've been on an exciting adventure of continuous learning and growth.</p>
                                             <p>Talking about my educational qualifications, I did BCA and currently pursuing MCA.</p>
@@ -43,7 +43,7 @@ input.addEventListener('keyup', (e)=>{
                 input.value = "";
                 
                 outputContainer.innerHTML += '<div class="output">' +
-                                            '<span class="user">visitor@mjcodes:~$</span> <span class="prev-cmd">skills</span>' + 
+                                            '<span class="user">visitor@mjportfolio:~$</span> <span class="prev-cmd">skills</span>' + 
                                             '<div><p class="highlight">Markup Languages/Stylesheets:</p><ul><li>HTML</li><li>CSS</li></ul></div>' +
                                             '<div><p class="highlight">Programming Languages:</p><ul><li>C</li><li>C++</li><li>Java</li><li>Python</li><li>Javascript</li><li>Typescript</li><li>PHP</li></ul></div>' +
                                             '<div><p class="highlight">Frameworks/Libraries:</p><ul><li>Node.js</li><li>ExpressJs</li><li>ReactJs</li><li>Bootstrap</li><li>Tailwind CSS</li><li>Material UI</li></ul></div>' +
@@ -58,7 +58,7 @@ input.addEventListener('keyup', (e)=>{
                 input.value = "";
                 
                 outputContainer.innerHTML += '<div class="output">' +
-                                            '<span class="user">visitor@mjcodes:~$</span> <span class="prev-cmd">projects</span>' + 
+                                            '<span class="user">visitor@mjportfolio:~$</span> <span class="prev-cmd">projects</span>' + 
                                             `<div>
                                             
                                                 <div class="project">
@@ -112,7 +112,7 @@ input.addEventListener('keyup', (e)=>{
                 input.value = "";
 
                 outputContainer.innerHTML += '<div class="output">' +
-                                            '<span class="user">visitor@mjcodes:~$</span> <span class="prev-cmd">education</span>' + 
+                                            '<span class="user">visitor@mjportfolio:~$</span> <span class="prev-cmd">education</span>' + 
                                             `<div class="education">
                                                 <ul>
                                                     <li>
@@ -134,7 +134,7 @@ input.addEventListener('keyup', (e)=>{
                 input.value = "";
                 
                 outputContainer.innerHTML += '<div class="output">' +
-                                            '<span class="user">visitor@mjcodes:~$</span> <span class="prev-cmd">connect</span>' + 
+                                            '<span class="user">visitor@mjportfolio:~$</span> <span class="prev-cmd">connect</span>' + 
                                             `<div>
                                             <ul>
                                                     <li><pre><span class="highlight">Email</span>            <a href="mailto:mjha199402@gmail.com" target="_blank">mjha199402@gmail.com</a></pre></li>
@@ -153,7 +153,7 @@ input.addEventListener('keyup', (e)=>{
                 input.value = "";
                 
                 outputContainer.innerHTML += '<div class="output">' +
-                                            '<span class="user">visitor@mjcodes:~$</span> <span class="prev-cmd">experience</span>' + 
+                                            '<span class="user">visitor@mjportfolio:~$</span> <span class="prev-cmd">experience</span>' + 
                                             `<div>
                                                 <ul>
                                                     <li><pre><span class="highlight">Maxester</span>           Fullstack Web Developer Intern (Dec 2023 - Jan 2024)</pre></li>
@@ -173,7 +173,7 @@ input.addEventListener('keyup', (e)=>{
                 input.value = "";
                 
                 outputContainer.innerHTML += '<div class="output">' +
-                                            '<span class="user">visitor@mjcodes:~$</span> <span class="prev-cmd">resume</span>' + 
+                                            '<span class="user">visitor@mjportfolio:~$</span> <span class="prev-cmd">resume</span>' + 
                                             '<div>Redirecting...</div>' +
                                             '</div>';
                 window.open('https://drive.google.com/file/d/10GzH9Au_XhfDAZ1HZ7bfh4dhM6nmBNmz/view?usp=sharing', '_blank');
@@ -182,7 +182,7 @@ input.addEventListener('keyup', (e)=>{
             default:
                 
                 outputContainer.innerHTML += '<div class="output">' +
-                `<span class="user">visitor@mjcodes:~$</span> <span class="prev-cmd">${input.value}</span>` + 
+                `<span class="user">visitor@mjportfolio:~$</span> <span class="prev-cmd">${input.value}</span>` + 
                 '<div>No command found. See the list of available commands using <span class="highlight">\'help\'</span></div>' +
                 '</div>';
                 input.value = "";
