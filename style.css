@@ -12,6 +12,10 @@
     color: #250d1d;
 }
 
+pre{
+    white-space: pre-wrap;
+}
+
 .container{
     min-height: 100vh;
     width: 100%;
@@ -30,6 +34,7 @@
     margin-left: -125px;
     color: #ffffffad;
     user-select: none;
+    white-space: pre;
 }
 
 .greet{
